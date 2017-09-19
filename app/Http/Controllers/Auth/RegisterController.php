@@ -1,9 +1,16 @@
 <?php
 
+<<<<<<< HEAD
 namespace App\Http\Controllers\Auth;
 
 use App\User;
 use App\Http\Controllers\Controller;
+=======
+namespace crud_laravel\Http\Controllers\Auth;
+
+use crud_laravel\User;
+use crud_laravel\Http\Controllers\Controller;
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -58,7 +65,11 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
+<<<<<<< HEAD
      * @return \App\User
+=======
+     * @return \crud_laravel\User
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
      */
     protected function create(array $data)
     {

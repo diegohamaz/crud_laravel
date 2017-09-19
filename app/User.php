@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 namespace App;
+=======
+namespace crud_laravel;
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

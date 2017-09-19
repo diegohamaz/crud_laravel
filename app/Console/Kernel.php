@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 namespace App\Console;
+=======
+namespace crud_laravel\Console;
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

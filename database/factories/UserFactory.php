@@ -13,7 +13,11 @@ use Faker\Generator as Faker;
 |
 */
 
+<<<<<<< HEAD
 $factory->define(App\User::class, function (Faker $faker) {
+=======
+$factory->define(crud_laravel\User::class, function (Faker $faker) {
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
     static $password;
 
     return [

@@ -39,7 +39,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'debug' => env('APP_DEBUG', false),
+=======
+    'debug' => env('APP_DEBUG', true),
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +56,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'url' => env('APP_URL', 'http://localhost'),
+=======
+    'url' => env('APP_URL', 'http://localhost/'),
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 
     /*
     |--------------------------------------------------------------------------
@@ -137,7 +145,11 @@ return [
     */
 
     'providers' => [
+<<<<<<< HEAD
 
+=======
+        'Collective\Html\HtmlServiceProvider',
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
         /*
          * Laravel Framework Service Providers...
          */
@@ -171,11 +183,20 @@ return [
         /*
          * Application Service Providers...
          */
+<<<<<<< HEAD
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+=======
+        crud_laravel\Providers\AppServiceProvider::class,
+        crud_laravel\Providers\AuthServiceProvider::class,
+        // crud_laravel\Providers\BroadcastServiceProvider::class,
+        crud_laravel\Providers\EventServiceProvider::class,
+        crud_laravel\Providers\RouteServiceProvider::class,
+
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 
     ],
 
@@ -225,6 +246,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+<<<<<<< HEAD
+=======
+        'Form' => 'Collective\Html\FormFacade',
+        'Html' => 'Collective\Html\HtmlFacade',
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 
     ],
 

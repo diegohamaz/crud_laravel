@@ -30,7 +30,11 @@ return [
     ],
 
     'stripe' => [
+<<<<<<< HEAD
         'model' => App\User::class,
+=======
+        'model' => crud_laravel\User::class,
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

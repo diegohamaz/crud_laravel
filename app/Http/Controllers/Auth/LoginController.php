@@ -1,8 +1,14 @@
 <?php
 
+<<<<<<< HEAD
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+=======
+namespace crud_laravel\Http\Controllers\Auth;
+
+use crud_laravel\Http\Controllers\Controller;
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller

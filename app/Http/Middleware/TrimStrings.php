@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 namespace App\Http\Middleware;
+=======
+namespace crud_laravel\Http\Middleware;
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 
 use Illuminate\Foundation\Http\Middleware\TrimStrings as Middleware;
 

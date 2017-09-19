@@ -28,17 +28,29 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
+<<<<<<< HEAD
     App\Http\Kernel::class
+=======
+    crud_laravel\Http\Kernel::class
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
+<<<<<<< HEAD
     App\Console\Kernel::class
+=======
+    crud_laravel\Console\Kernel::class
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
+<<<<<<< HEAD
     App\Exceptions\Handler::class
+=======
+    crud_laravel\Exceptions\Handler::class
+>>>>>>> 48afbb8439cbe4b34ae0738f2cfcc9909029a636
 );
 
 /*
